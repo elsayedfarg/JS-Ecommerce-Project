@@ -1,0 +1,50 @@
+/* profile page */
+
+.profile-container{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.user-avatar{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.profile-container h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#user-email{
+    font-size: 20px;
+}
+
+.edit-profile-link{
+    width: 140px;
+    border: "none";
+    background-color: green;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* edit profile page */
+
+#edit-profile-form input{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    height: 40px;
+}
+
+#edit-profile-form input[type="submit"]{
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}

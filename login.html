@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- css pages -->
+    <link rel="stylesheet" href="css/general_style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Login page</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <!-- this div created because we do not need to change the container class (built-in in bootstrap)-->
+                <a href="index.html" class="brand">Shopping cart</a>
+                <nav>
+                    <ul>
+                        <li> <a href="login.html">Sign In</a></li><!-- login -->
+                        <li> <a href="register.html">Sign Up</a></li><!-- register -->
+                    </ul><!-- /ul -->
+                </nav><!-- /nav -->
+            </div><!-- /header-content -->
+        </div><!-- container -->
+    </header><!-- /header -->
+
+    <section class="form-section">
+        <h2>Login User</h2>
+        <form>
+            <input type="text" placeholder="Enter Username .." id="username" />
+            <input type="password" placeholder="Enter Password .." id="password" />
+
+            <input type="submit" value="Sign In" id="sign_in" />
+
+            Not Have Account <a href="register.html" id="nt-have-account"> Register</a>
+        </form>
+    </section><!-- form-section -->
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>

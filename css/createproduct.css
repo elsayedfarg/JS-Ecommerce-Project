@@ -1,0 +1,18 @@
+.creat-product-page form input,
+.creat-product-page form select{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.creat-product-page form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
